@@ -1,2 +1,67 @@
-*.class
+mainnet
+devnet
+
+# IDE/Editor files
+.idea
+.bsp
+.ensime
+.ensime_cache/
+scorex.yaml
+
+# scala build folders
+target
+
+# standalone docker
+!Dockerfile
+
+# local application.conf
+local-application.conf
+*-local*.conf
+my*.conf
+
+# logs
 *.log
+*.log.gz
+*.tmp
+
+# binary files
+*.pdf
+*.gz
+
+# Core latex/pdflatex auxiliary files:
+*.aux
+*.lof
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+*.bbl
+*.blg
+
+# db files
+*.data
+ergo/
+.ergo/
+.ergo_test/
+
+# for temporary experiments
+sheet.scala
+project/project/
+
+local.conf
+
+# osx files
+.DS_Store
+
+# metals, bloop, vscode
+.bloop/
+.metals/
+.vscode/
+project/metals.sbt
+
+# scala worksheets
+*.worksheet.sc
